@@ -1,0 +1,1 @@
+The main issue was incorrect preprocessing, especially during target encoding. I made mistakes in mapping and handling missing values, and some features were misaligned after splitting the data. This caused the model to learn wrong patterns, leading to negative R² scores. Fixing mapping, index alignment, and feature engineering resolved the issue.
